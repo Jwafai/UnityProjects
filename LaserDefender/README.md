@@ -18,4 +18,11 @@ Game: The game scene is where the gameplay takes place. Players control their sp
 Game Over: When the player's spaceship health reaches zero, the game transitions to the game-over scene. Here, players can see their score and choose to restart the game or return to the main menu.
 
 SCREENSHOTS:
-![Screenshot](Images/1png)
+Main Menu
+![Screenshot](Images/1.png)
+
+GamePlay
+![Screenshot](Images/2.png)
+
+Game Over
+![Screenshot](Images/3.png)
