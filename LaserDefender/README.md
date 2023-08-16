@@ -1,21 +1,28 @@
-# WeddingPlanner
-Wedding Invitation App
-The Wedding Invitation App is a mobile application developed using Android Studio, Java, and Firebase Database. This app simplifies the process of sending wedding invitations, collecting guest information, and managing attendance for the groom and bride's special day.
+# Laser Defender - A 2D Space Shooter Game
+Laser Defender is a 2D space shooter game developed using Unity and C#. In this game, players control a spaceship and engage in intense battles against waves of enemies. The objective is to survive enemy attacks, avoid their bullets, and defeat as many enemies as possible.
 
-Features
-Email Invitations: The groom and bride can send email invitations to their guests using the app. The emails contain a unique username and password for each guest to log in.
+GAMEPLAY:
+Controls: Players can control the spaceship using either the WASD keys or the arrow keys. The spaceship shoots lasers when the spacebar or left mouse button is pressed.
 
-Guest Registration: Guests can log in using the provided username and password to access the app. Upon logging in, they are required to fill out a registration form with the following details:
+Enemies: Waves of enemies appear on the screen and shoot at the player's spaceship. Players must dodge enemy bullets while firing their lasers to destroy the enemies.
 
-Name of the guest and the accompanying +1 guest
-Food preferences (if any)
-Drink preferences (if any)
-Venue Navigation: The app provides a button that navigates guests to the wedding venue using a maps application.
+Health: The player's spaceship has a certain amount of health. Getting hit by enemy bullets reduces health. The game ends if the player's health reaches zero.
 
-Attendance Tracking: After submitting the registration form, the guest details are stored in the Firebase Database. The groom and bride, acting as administrators, can view the list of guests who have confirmed their attendance and the details they've filled out.
+SCENE:
+The game consists of three main scenes:
 
-Dependencies
-Firebase Authentication: Manages user authentication.
-Firebase Realtime Database: Stores guest information and attendance data.
-Google Maps API: Enables venue navigation.
+Main Menu: The main menu scene is the starting point of the game. Players can start the game, access settings, or exit the game from here.
 
+Game: The game scene is where the gameplay takes place. Players control their spaceship, engage in battles, and aim to survive as long as possible against waves of enemies.
+
+Game Over: When the player's spaceship health reaches zero, the game transitions to the game-over scene. Here, players can see their score and choose to restart the game or return to the main menu.
+
+SCREENSHOTS:
+
+![Screenshot](Images/1.png)
+
+
+![Screenshot](Images/2.png)
+
+
+![Screenshot](Images/3.png)
