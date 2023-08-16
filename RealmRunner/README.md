@@ -18,3 +18,8 @@ Gameplay: The gameplay scene is where the core action takes place. Players navig
 Game Over: When the player runs out of lives, the game transitions to the game over scene. Here, players can see their final score, retry the game, or return to the main menu.
 
 Screenshots:
+![Screenshot](Images/1.png)
+
+![Screenshot](Images/2.png)
+
+![Screenshot](Images/3.png)
